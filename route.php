@@ -1,8 +1,7 @@
 <?php
-// route.php
 header('Content-Type: application/json');
 
-$apiKey = "b7e5e6167d1643dfaf4f31e8ebd72599"; // 🔒 keep private
+$apiKey = "b7e5e6167d1643dfaf4f31e8ebd72599"; // keep private
 
 if (!isset($_GET['start']) || !isset($_GET['end'])) {
     http_response_code(400);
