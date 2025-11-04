@@ -2,22 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Geoapify Routing Demo</title>
+  <title>Geoapify Route Demo (Auto Start Location)</title>
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css">
   <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"></script>
   <style>
     #map {
-      height: 500px;
+      height: 100vh;
       width: 100%;
       margin-top: 10px;
     }
   </style>
 </head>
 <body>
-  <h2>Geoapify Route Example (PHP + JS)</h2>
-  <label>Start: </label>
-  <input type="text" id="start" placeholder="14.5995,120.9842 (Manila)">
-  <label>End: </label>
+  <h2>Geoapify Route Example (Auto Start Location)</h2>
+  <label>Destination: </label>
   <input type="text" id="end" placeholder="14.6760,121.0437 (Quezon City)">
   <button id="getRoute">Show Route</button>
 
